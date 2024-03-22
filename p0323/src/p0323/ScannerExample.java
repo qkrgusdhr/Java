@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ScannerExample {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		Scanner sc  = new Scanner(System.in);
 		
@@ -31,6 +31,7 @@ public class ScannerExample {
 			System.out.println("출력 문자열 : " + data);
 			System.out.println();
 		}
+
 		System.out.println("종료");
 		sc.close();
 		
